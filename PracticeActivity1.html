@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Practice Activity 1</title>
+
+	<style>
+		h1{
+			background-color: darkblue;
+			color: white;
+			border: 5px;
+			padding: 5px;
+			border-radius: 10px;
+		}
+
+		body{
+			background-color: lightblue;
+			color: darkblue;
+			font-size: 20px;
+		}
+		.Section{
+			color: mediumblue;
+			background-color: white;
+			border: 5px;
+			padding: 5px;
+			border-radius: 10px;
+		}
+
+		.Login{
+			color: mediumblue;
+			background-color: white;
+			border: 5px;
+			padding: 5px;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+
+<h1> Log-In </h1>
+
+<h2> Select your section </h2>
+
+<div class="Section">
+<form>
+
+	<input type="radio" id="emerald" name="section" value="Emerald">
+	<label for="emerald"> Emerald </label>
+	
+	<br>
+
+	<input type="radio" id="ruby" name="section" value="Ruby">
+	<label for="ruby"> Ruby </label>
+
+</form>
+</div>
+
+<h1> Username and Password</h1>
+
+<h2> Input your log-in details </h2>
+
+<div class="Login">
+<form>
+
+	<label for="user"> Username: </label>
+	<br>
+	<textarea id="user" name="Username" rows="1" cols="50" placeholder="What's your username?"></textarea>
+
+	<br>
+	
+	<label for="pass"> Password: </label>
+	<br>
+	<textarea id="pass" name="Password" rows="1" cols="50" placeholder="What's your password"></textarea>
+</form>
+</div>
+
+<form>
+	<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
